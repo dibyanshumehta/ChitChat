@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChitChat</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header id="chat-header">
+    <h1>💬 ChitChat</h1>
+  </header>
+
+  <div id="main-container">
+    <!-- Login Box -->
+    <div id="login-box" class="card">
+      <input id="username" placeholder="Enter your username" />
+      <button id="enter-btn">Enter</button>
+    </div>
+
+    <!-- Room Select Box -->
+    <div id="room-box" class="card hidden">
+      <input id="room" placeholder="Enter room name" />
+      <button id="join-btn">Join Room</button>
+    </div>
+
+    <!-- Chat Room -->
+    <div id="chat-room" class="hidden">
+      <h2 id="room-name"></h2>
+      <div id="messages"></div>
+      <div id="input-area">
+        <input id="message" placeholder="Type a message..." />
+        <button id="send-btn"><i class="fas fa-paper-plane"></i> Send</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
