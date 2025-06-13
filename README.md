@@ -1,6 +1,6 @@
 # 💬 ChitChat - Real-Time Frontend Chat App
 
-**ChitChat** is a clean, responsive, real-time chat application built using only **HTML**, **CSS**, and **JavaScript**.  
+ChitChat is a clean, responsive, real-time chat application built using only HTML, CSS, and JavaScript.  
 It allows users to set a username, join chat rooms, and exchange messages in real time using the `BroadcastChannel` API (no backend required).
 **Website Link-** https://chitcht.netlify.app/
 ---
